@@ -1,0 +1,11 @@
+# Apple nonsenpple nonsense
+.DS_Store
+
+# RStudio
+*.Rproj
+*.Rproj.user
+*.Rhistory
+*.RData
+*.Ruserdata
+*.tar.gz
+.Rproj.user
