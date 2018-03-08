@@ -1,0 +1,35 @@
+---
+title: "PombePrimer notes"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### data/ folder:  
+*pombe_genome.RData*: This primer design app uses genomic sequences from 2016, named Schizosaccharomyces_pombe.ASM294v2.30.dna.I.fa.gz (dna.I, dna.II and dna.III for each of the chromosomes), which are stored with CDS coordinates (ch.cds) and gene mapping ID's (namemap) in the data/pombe_genome.RData file.  
+*Rscript_updateVectorSequences.R*: This script is used to update the app with vector data (from vectorsequences.txt), and creates a new vectorData.RData and text to manually update ui.R.  
+*vectorData.RData*: this file contains the R data with the vector sequences, and is loaded from global.R.  
+*vectorsequences.ods, vectorsequences.txt*: these are spreadsheets that contain the vector data to be converted into vectorData.RData with Rscript_updateVectorSequences.R.  
+
+### ResourcesAndDownloads/ folder:  
+It contains the tar.gz and compiled (in the linux version of the app) versions or primer3.2.3.7, which is called in server.R to do the primer design.  
+
+### www/ folder:  
+*www* is a reserved name in Shiny, and contains all the materials that are uploaded from the app (with exception of primer3, which is in ResourcesAndDownloads/).  
+
+*Cloning_protocol.docx*: a description of the Gibson cloning approach, also displayed in HTML in the app.  
+*pombeprimer_protocol.\**: graphic description of the cloning approach in various formats (.svg, .pdf and .png).  
+*vectorMaps/*: this folder contains all the vector maps available to download from the app, in GenBank (.gb) and GenomeCompiler (.gcproj).  
+
+### global.R, server.R, ui.R: 
+R scripts required by the Shiny package. The can be merged into a single script, but split this way they are more manageable. *Global.R* contains the libraries and data to be loaded when the app launches. *ui.R* codes the user interface, and *server.R* codes all data processing and output generation.  
+
+
+
+
+
+
+
+
