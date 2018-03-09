@@ -1,25 +1,7 @@
-#TOCHECK
-
-#check correct positioning of deletion FRs
+#To update vData, vectorData or the tabPanel 'Vector sequences', use the script in /data/Rscript_updateVectorSequences.R
 
 
-#Things not too bothering but that can be improved
-#See in-line comments:
-   #'#here insert.Tm is numeric, so when e.g. 60.0 is selected, the 0 dissapears. Maybe fix this format problem in the future?
-
-###Notes to update the application with new vector sequences
-  #To update vData, vectorData or the tabPanel 'Vector sequences', use the script in /data/Rscript_updateVectorSequences.R
-
-
-library('shiny')
-library('Biostrings')
-load('data/pombe_genome.RData')
-
-#note that there's a global.R where I'm loading vectordata.RData
-
-
-
-####PROCESSING OF LIST OF SYSTEMATIC ID'S (genelist)#####
+#### PROCESSING OF LIST OF SYSTEMATIC ID'S (genelist)#####
 
 ##Flanking-region getter function
 
@@ -136,7 +118,7 @@ fun.updateGeneList <- function(gene.list, subseqfunction, maxsize) {
 
 
 
-####PRIMER DESIGN WITH Primer3####
+#### PRIMER DESIGN WITH Primer3####
 
 #basic primer3 configuration
   #set a platform-independent file path
@@ -332,7 +314,7 @@ func.primer_vector.chV <- function(seq1) {
 }
 
 
-####Main primer design functions####
+#### Main primer design functions####
 
 #This function designs the ch_ primers in the full-sized flanking regions and updates Gene.list with the primer-trimmed flanking regions
 fun.designPrimers <- function(genelist, maxsize, HRL, HRR, cusdeletion){
@@ -516,7 +498,7 @@ func.designprimersParse <- function(HR_LF.primers, HR_RF.primers,
 }
 
 
-####NON-REACTIVE FUNCTIONS####
+#### NON-REACTIVE FUNCTIONS####
 
 #mapping of ch.cds (coordinates) with namemap (systematicID-common name)
 mappedgenelist <- merge(namemap[, c(1,4)], ch.cds, by=1)

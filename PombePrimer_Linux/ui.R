@@ -1,8 +1,3 @@
-#update
-  #'line 163 p()
-
-library(shiny)
-
 shinyUI(fluidPage(
   titlePanel(h1(strong('Pombe long flanking region design'), style='color:steelblue')),
   br(),
@@ -391,13 +386,14 @@ shinyUI(fluidPage(
                both cloning and validating constructs, providing a list of recipient backbones and options for custom vectors,
                and provides the final cloned vectors using Gibson assembly."),
             h4('Credits'),
-            HTML("<p>This app was designed by Dr. Ruben Alvarez, in the laboratory of 
+            HTML("<p>This app was designed by <a href=https://www.linkedin.com/in/rubenalvarezfernandezcreative/ target='blank'>Dr. Ruben Alvarez</a>, in the laboratory of 
             <a href=http://www.bioc.cam.ac.uk/people/uto/mata target='blank'>Dr. Juan Mata</a>, at the Department of Biochemistry
-            in the University of Cambridge (UK), and published in this <a href='under construction' target='blank'>paper</a>.</p>
+            in the University of Cambridge (UK).
             <p>This app was designed using the package <a href=https://CRAN.R-project.org/package=shiny target='blank'>Shiny</a>
-                 in R, and <a href=http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3424584/ target='blank'>primer3</a> version 
+                 1.0.5 in R 3.4.3, and <a href=http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3424584/ target='blank'>primer3</a> version 
                  <a href=https://sourceforge.net/projects/primer3/files/primer3/2.3.7/ target='blank'>2.3.7</a>.</p>")
-            
+           
+            #, and published in this <a href='under construction' target='blank'>paper</a>.</p> 
           )
         )
     )
