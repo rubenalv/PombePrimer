@@ -29,7 +29,7 @@ R -e "shiny::runApp(appDir = '~/appdirectory/', launch.browser = TRUE)"
 
 To run the app from R, open R, set the working directory to the app root directory, and run:  
 ```
-runApp()
+shiny::runApp()
 ```
 
 To run the app from RStudio, open any of global.R, ui.R or server.R and press the *Run App* (Run the Shiny application) button in the code editor panel.
