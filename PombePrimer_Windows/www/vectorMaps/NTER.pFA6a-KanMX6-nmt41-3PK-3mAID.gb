@@ -1,0 +1,248 @@
+LOCUS                               6128 bp  DNA circular GCC  
+DEFINITION  pFA6a-nmt-3PK-3miniAID-KanMX6 (128) 
+ACCESSION   
+SOURCE      
+  ORGANISM  
+COMMENT     This file was created using Genome Compiler.
+
+FEATURES             Location/Qualifiers
+     source          1..6128
+                     /organism=""
+     promoter        complement(1..19)
+                     /label="SP6 promoter"
+                     /locus_tag=""
+                     /note="promoter for bacteriophage SP6 RNA polymerase"
+                     /product=""
+     promoter        365..469
+                     /label="AmpR promoter"
+                     /locus_tag=""
+                     /product=""
+     CDS             470..1330
+                     /label="AmpR"
+                     /locus_tag=""
+                     /note="confers resistance to ampicillin, carbenicillin, and
+                      related antibiotics"
+                     /product="β-lactamase"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGY
+                     IELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVE
+                     YSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRL
+                     DRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPL
+                     LRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIA
+                     EIGASLIKHW"
+     rep_origin      1501..2089
+                     /label="ori"
+                     /locus_tag=""
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of rep
+                     lication"
+                     /product=""
+     promoter        2347..2365
+                     /label="T7 promoter"
+                     /locus_tag=""
+                     /note="promoter for bacteriophage T7 RNA polymerase"
+                     /product=""
+     misc_feature    2420..2439
+                     /label="last nt oligo fw"
+                     /locus_tag=""
+                     /product=""
+     terminator      2470..2667
+                     /label="TEF terminator"
+                     /locus_tag=""
+                     /note="Ashbya gossypii TEF terminator"
+                     /product=""
+     CDS             complement(2673..3482)
+                     /label="KanR"
+                     /locus_tag=""
+                     /note="confers resistance to kanamycin"
+                     /product="aminoglycoside phosphotransferase"
+                     /translation="MGKEKTHVSRPRLNSNMDADLYGYKWARDNVGQSGATIYRLYGK
+                     PDAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIPGK
+                     TAFQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNSDRVFRLAQAQSRMNNGLVD
+                     ASDFDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRV
+                     GIADRYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF"
+     promoter        complement(3483..3826)
+                     /label="TEF promoter"
+                     /locus_tag=""
+                     /note="Ashbya gossypii TEF promoter"
+                     /product=""
+     misc_feature    3891..5026
+                     /label="nmt promoter"
+                     /locus_tag=""
+                     /note="nmt promoter"
+                     /product=""
+     CDS             5036..5038
+                     /label="Start codon"
+                     /locus_tag=""
+                     /product=""
+                     /translation="M"
+     misc_feature    5039..5056
+                     /label="These sequence corresponds to the"
+                     /locus_tag=""
+                     /note="These sequence corresponds to the linker sequence fo
+                     und in the vector sent by Celine (C-terminal tagging). I ha
+                     d to include in order to be able to amplify the tag (otherw
+                     ise, the oligo would match in any of the thre PKs and I wou
+                     ld get a mix of products in the pcr reaction). I have also 
+                     included an ATG so that it can be expressed at the N-termin
+                     us."
+                     /product=""
+     CDS             5057..5083
+                     /label="PK"
+                     /locus_tag=""
+                     /note="PK"
+                     /product=""
+                     /translation="IPNPLLGLD"
+     misc_feature    5087..5113
+                     /label="PK"
+                     /locus_tag=""
+                     /note="PK"
+                     /product=""
+     misc_feature    5117..5143
+                     /label="PK"
+                     /locus_tag=""
+                     /note="PK"
+                     /product=""
+     CDS             complement(5148..5165)
+                     /label="HQ tag"
+                     /locus_tag=""
+                     /note="The HQ tag binds to nickel and other metal ions much
+                      like the 6xHis tag, but may allow elution at lower concent
+                     rations of imidazole (Godat et al., 2008)."
+                     /product="HQHQHQ metal affinity tag"
+                     /translation="HQHQHQ"
+     CDS             5171..5374
+                     /label="mini-AID"
+                     /locus_tag=""
+                     /note="mini-AID"
+                     /product=""
+                     /translation="KEKSACPKDPAKPPAKAQVVGWPPVRSYRKNVMVSCQKSSGGPE
+                     AAAFVKVSMDGAPYLRKIDLRMYK"
+     CDS             5375..5823
+                     /label="linker-3miniAID"
+                     /locus_tag=""
+                     /product="AtIAA17 amino acids 65-132"
+                     /translation="GAGAGAKEKSACPKDPAKPPAKAQVVGWPPVRSYRKNVMVSCQK
+                     SSGGPEAAAFVKVSMDGAPYLRKIDLRMYKGAGAGAGAKEKSACPKDPAKPPAKAQVV
+                     GWPPVRSYRKNVMVSCQKSSGGPEAAAFVKVSMDGAPYLRKIDLRMY"
+     CDS             5824..5824
+                     /label="Change"
+                     /locus_tag=""
+                     /product="In the original plasmid sent by Celine (originall
+                     y: pMK151.3miniAID) this nt corresponded to A. I have chang
+                     ed it for a G by exchanging this A for G in my infusion rv 
+                     primer (SL557). In this way the same rv oligo can be used i
+                     n order to amplify the 1 AID or the 3 AID cassettes from pF
+                     A6a-kanMX6-p41-nmt1-3PK-miniAID or pFA6a-kanMX6-p41-nmt1-3P
+                     K-3miniAID"
+                     /translation=""
+     terminator      5866..6053
+                     /label="ADH1 terminator"
+                     /locus_tag=""
+                     /note="transcription terminator for alcohol dehydrogenase 1
+                     "
+                     /product=""
+
+ORIGIN
+        1 tctatagtgt cacctaaatc gtatgtgtat gatacataag gttatgtatt aattgtagcc
+       61 gcgttctaac gacaatatgt ccatatggtg cactctcagt acaatctgct ctgatgccgc
+      121 atagttaagc cagccccgac acccgccaac acccgctgac gcgccctgac gggcttgtct
+      181 gctcccggca tccgcttaca gacaagctgt gaccgtctcc gggagctgca tgtgtcagag
+      241 gttttcaccg tcatcaccga aacgcgcgag acgaaagggc ctcgtgatac gcctattttt
+      301 ataggttaat gtcatgataa taatggtttc ttagacgtca ggtggcactt ttcggggaaa
+      361 tgtgcgcgga acccctattt gtttattttt ctaaatacat tcaaatatgt atccgctcat
+      421 gagacaataa ccctgataaa tgcttcaata atattgaaaa aggaagagta tgagtattca
+      481 acatttccgt gtcgccctta ttcccttttt tgcggcattt tgccttcctg tttttgctca
+      541 cccagaaacg ctggtgaaag taaaagatgc tgaagatcag ttgggtgcac gagtgggtta
+      601 catcgaactg gatctcaaca gcggtaagat ccttgagagt tttcgccccg aagaacgttt
+      661 tccaatgatg agcactttta aagttctgct atgtggcgcg gtattatccc gtattgacgc
+      721 cgggcaagag caactcggtc gccgcataca ctattctcag aatgacttgg ttgagtactc
+      781 accagtcaca gaaaagcatc ttacggatgg catgacagta agagaattat gcagtgctgc
+      841 cataaccatg agtgataaca ctgcggccaa cttacttctg acaacgatcg gaggaccgaa
+      901 ggagctaacc gcttttttgc acaacatggg ggatcatgta actcgccttg atcgttggga
+      961 accggagctg aatgaagcca taccaaacga cgagcgtgac accacgatgc ctgtagcaat
+     1021 ggcaacaacg ttgcgcaaac tattaactgg cgaactactt actctagctt cccggcaaca
+     1081 attaatagac tggatggagg cggataaagt tgcaggacca cttctgcgct cggcccttcc
+     1141 ggctggctgg tttattgctg ataaatctgg agccggtgag cgtgggtctc gcggtatcat
+     1201 tgcagcactg gggccagatg gtaagccctc ccgtatcgta gttatctaca cgacggggag
+     1261 tcaggcaact atggatgaac gaaatagaca gatcgctgag ataggtgcct cactgattaa
+     1321 gcattggtaa ctgtcagacc aagtttactc atatatactt tagattgatt taaaacttca
+     1381 tttttaattt aaaaggatct aggtgaagat cctttttgat aatctcatga ccaaaatccc
+     1441 ttaacgtgag ttttcgttcc actgagcgtc agaccccgta gaaaagatca aaggatcttc
+     1501 ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc
+     1561 agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg taactggctt
+     1621 cagcagagcg cagataccaa atactgtcct tctagtgtag ccgtagttag gccaccactt
+     1681 caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac cagtggctgc
+     1741 tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt taccggataa
+     1801 ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg agcgaacgac
+     1861 ctacaccgaa ctgagatacc tacagcgtga gcattgagaa agcgccacgc ttcccgaagg
+     1921 gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc gcacgaggga
+     1981 gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc acctctgact
+     2041 tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa
+     2101 cgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt tctttcctgc
+     2161 gttatcccct gattctgtgg ataaccgtat taccgccttt gagtgagctg ataccgctcg
+     2221 ccgcagccga acgaccgagc gcagcgagtc agtgagcgag gaagcggaag agcgcccaat
+     2281 acgcaaaccg cctctccccg cgcgttggcc gattcattaa tgcaggttaa cctggcttat
+     2341 cgaaattaat acgactcact atagggagac cggcagatcc gcggccgcat aggccactag
+     2401 tggatctgat atcatcgatg aattcgagct cgtttaaact ggatggcggc gttagtatcg
+     2461 aatcgacagc agtatagcga ccagcattca catacgattg acgcatgata ttactttctg
+     2521 cgcacttaac ttcgcatctg ggcagatgat gtcgaggcga aaaaaaatat aaatcacgct
+     2581 aacatttgat taaaatagaa caactacaat ataaaaaaac tatacaaatg acaagttctt
+     2641 gaaaacaaga atctttttat tgtcagtact gattagaaaa actcatcgag catcaaatga
+     2701 aactgcaatt tattcatatc aggattatca ataccatatt tttgaaaaag ccgtttctgt
+     2761 aatgaaggag aaaactcacc gaggcagttc cataggatgg caagatcctg gtatcggtct
+     2821 gcgattccga ctcgtccaac atcaatacaa cctattaatt tcccctcgtc aaaaataagg
+     2881 ttatcaagtg agaaatcacc atgagtgacg actgaatccg gtgagaatgg caaaagctta
+     2941 tgcatttctt tccagacttg ttcaacaggc cagccattac gctcgtcatc aaaatcactc
+     3001 gcatcaacca aaccgttatt cattcgtgat tgcgcctgag cgagacgaaa tacgcgatcg
+     3061 ctgttaaaag gacaattaca aacaggaatc gaatgcaacc ggcgcaggaa cactgccagc
+     3121 gcatcaacaa tattttcacc tgaatcagga tattcttcta atacctggaa tgctgttttg
+     3181 ccggggatcg cagtggtgag taaccatgca tcatcaggag tacggataaa atgcttgatg
+     3241 gtcggaagag gcataaattc cgtcagccag tttagtctga ccatctcatc tgtaacatca
+     3301 ttggcaacgc tacctttgcc atgtttcaga aacaactctg gcgcatcggg cttcccatac
+     3361 aatcgataga ttgtcgcacc tgattgcccg acattatcgc gagcccattt atacccatat
+     3421 aaatcagcat ccatgttgga atttaatcgc ggcctcgaaa cgtgagtctt ttccttaccc
+     3481 atggttgttt atgttcggat gtgatgtgag aactgtatcc tagcaagatt ttaaaaggaa
+     3541 gtatatgaaa gaagaacctc agtggcaaat cctaaccttt tatatttctc tacaggggcg
+     3601 cggcgtgggg acaattcaac gcgtctgtga ggggagcgtt tccctgctcg caggtctgca
+     3661 gcgaggagcc gtaatttttg cttcgcgccg tgcggccatc aaaatgtatg gatgcaaatg
+     3721 attatacatg gggatgtatg ggctaaatgt acgggcgaca gtcacatcat gcccctgagc
+     3781 tgcgcacgtc aagactgtca aggagggtat tctgggcctc catgtcgctg gccgggtgac
+     3841 ccggcgggga cgaggcaagc taaacagatc tcgccataaa agacagaata agtcatcagc
+     3901 ggttgtttca tttcctatat ttttttttta tttttttatt ttttaataag ggaaaattta
+     3961 acgtctaagg atacagaaga ttgttagcac attaaagtaa taaaggctta agtagtaagt
+     4021 gccttagcat gttattgtat ttcaaaggac ataatctaaa ataataacaa tatcatttct
+     4081 cacaagttat tcaattttct tttttttttc taataatatc aagaatgtat tatttgtttg
+     4141 acataagtca actaatttat ttaatatgct ggattaatct tgcagacatg taaattaaca
+     4201 agttttagtc aaataacgtt gaagtttcaa tgaactcaaa taatttctct ttttttttat
+     4261 ataaccatat atgtctaatc tgatttatat tttccgcagg atcaactgaa gttatgacat
+     4321 ttggattgga tcacttataa ccttggtcgc caaataatac aaaaatcagc gttataaaac
+     4381 aaagaaggtt tttgttaaga aattaatcct ctttcttgat aagaaagttg aaccgaaatt
+     4441 gcagatactg atatatgaaa ataataccca caattttggg aatagcgcaa gcctcaattt
+     4501 aaacaatagg tgaggacaca tgataatgac ctcaatgatt gttagaagaa aagagcctca
+     4561 ttacaaaatc gaaaaatgaa tggttgggta caagtttcca aaacatggta aagtggactt
+     4621 tgcgtatgag acgtaaatag aaaaaaacac ttgttatatg ttttctagaa ttattgttgt
+     4681 ctctttatgg ttggatgatg caaaatagta atttcggtta gttgctgtaa aacaccacga
+     4741 gacaaataga tatggatatt tattaaatca ggaaaaacgt aactctcggc tactggatgg
+     4801 ttcagtcacc caacgattac tggggagaga aaacagggca aaagcaaagc ttaaaggaat
+     4861 ccgattgtca ttcggcaatg tgcagcgaaa ctaaaaaccg gataatggac ctgttaatcg
+     4921 aaacattgaa gatatataaa ggaagaggaa tcctggcata tcatcaattg aataagttga
+     4981 attaattatt tcaatctcat tctcactttc tgacttatag tcgctttgtt aaatcatggg
+     5041 tgccggttct ggttctatcc caaacccatt gttgggtttg gactctatcc caaacccatt
+     5101 gttgggtttg gactctatcc caaacccatt gttgggtttg gacggtgctg gtgctggtgc
+     5161 tggtgccggt aaagaaaaga gtgcttgccc aaaagaccct gctaaacctc ctgccaaggc
+     5221 tcaagttgta ggatggccac ctgttagatc atacagaaag aatgtcatgg tttcttgtca
+     5281 aaagtcttca ggtggaccag aagctgcagc ctttgttaaa gtatctatgg atggtgcccc
+     5341 atatttgaga aagattgact taaggatgta caagggtgct ggagcaggcg ccaaagaaaa
+     5401 atctgcctgt ccaaaagatc ctgcaaagcc acctgctaaa gcacaagtcg tgggttggcc
+     5461 tcctgttaga agttatagaa agaatgtgat ggtttcttgc caaaaatcta gtggcggtcc
+     5521 tgaagccgca gccttcgtca aagtatctat ggacggcgct ccttatttgc gtaagataga
+     5581 cttgcgtatg tataaaggtg ccggagctgg cgcaggtgct aaggaaaaat ctgcgtgtcc
+     5641 aaaggaccct gcaaaaccac cagccaaggc acaagttgta ggttggcccc ctgtaagatc
+     5701 ctatagaaag aatgttatgg tttcttgcca aaaatcttct ggaggccctg aagcagctgc
+     5761 atttgttaaa gttagtatgg acggtgctcc ttacttgaga aaaatagact tgagaatgta
+     5821 taagggggga ggcgggggtg gatgaggcgc gccacttcta aataagcgaa tttcttatga
+     5881 tttatgattt ttattattaa ataagttata aaaaaaataa gtgtatacaa attttaaagt
+     5941 gactcttagg ttttaaaacg aaaattctta ttcttgagta actctttcct gtaggtcagg
+     6001 ttgctttctc aggtatagta tgaggtcgct cttattgacc acacctctac cggcagatcc
+     6061 gctagggata acagggtaat atagatccgt cgacctgcag cgtacgaagc ttcagctggc
+     6121 ggccgcgt
+//
