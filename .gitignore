@@ -5,7 +5,6 @@
 *.Rproj
 *.Rproj.user
 *.Rhistory
-*.RData
 *.Ruserdata
 *.tar.gz
 .Rproj.user
