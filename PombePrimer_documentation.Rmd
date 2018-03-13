@@ -10,6 +10,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Windows and Linux versions:  
 Both versions are almost identical, differing only in the primer3 installation and the way primer3 is called in server.R.  
 
+*As a note, primer3 can be called from a different R working directory on Linux (e.g. you can call it like "dir1/dir2/primer3_core"), but this does not work on Windows. In the latter case, you can only call (as far as my experience has proven) primer3 when the working directory is the one hosting primer3_core.exe.*  
+
 ### Installation instructions:  
 If you clone the app from the git repository you will get [primer3](https://sourceforge.net/projects/primer3/files/primer3/2.3.7/) with it.  
 You will need to install [R](https://cran.r-project.org/) and optionally [RStudio](https://www.rstudio.com/products/rstudio/download/). RStudio is not necessary, but it is well integrated with the Shiny package.  
