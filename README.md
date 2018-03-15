@@ -14,3 +14,11 @@ Credits:
 This app was designed by Dr. Ruben Alvarez, in the laboratory of Dr. Juan Mata, at the Department of Biochemistry in the University of Cambridge (UK).  
 
 This app was designed using the package Shiny in R, and primer3 version 2.3.7.
+
+# Screenshots:  
+
+PombePrimer app:  
+![app](PombePrimer_screenshot.png)
+
+Cloning protocol:  
+![protocol](pombeprimer_protocol_b.png)
